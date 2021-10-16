@@ -1,0 +1,10 @@
+body{
+	background-color: rgba(200,250,150);
+}
+.header{
+	background-color: rgba(120,170,100,1);
+	color: white;
+	padding: 60px;
+	text-align: center;
+	font-size 30px;
+}
