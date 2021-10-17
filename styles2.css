@@ -1,31 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
 body{
-	background-color: white;
 }
 .header{
-	background-color: rgba(130,180,60,1);
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.3)), url(farm.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
 	color: white;
-	padding: 1px;
 	text-align: center;
-	font-size: 25px;
-	font-family: arial;
-	letter-spacing: 5px;
+	/*font-size: 25px;*/
+	letter-spacing: 2px;
 	font-variant: small-caps;
-	margin: -10px;
+	/*margin: -10px;*/
+	position: relative;
 }
-.logo{
-	text-align: center;
+nav{
+	padding: 2% 6% 2%;
+/*	align-items: center;
+	justify-content: space-between;*/
+	background-color: rgba(130,180,60,0.5);
 }
-.menuButton{
-	float: left;
-	margin: 23px 0 0 30px;
-	border-radius: 0 0 0 0;
+nav h1{
+	font-size: 30px;
+	text-weight: normal;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: 300;
+}
+.nav-links{
+	flex:1;
+	text-align: right;
+	height: 100vh;
+	width: 200px;
+	left: -210px;
+	position: absolute;
+	transition: 0.5s;
+	background-color: rgba(130,180,60,0.5);
+	margin-top: -50px;
+	padding-top: 55px;
+}
+.nav-links ul li{
+	list-styles: none;
+	display: block;
+	position: relative;
 	padding: 7px;
-	background-color: white; 
-	border: solid white;
+}
+.nav-links ul li:hover{
+	background-color: white;
+	color: rgba(130,180,60,0.5);
+	transition: 0.5s;
+}
+.nav-links ul li a{
+	color: white;
+	text-decoration: none;
+}
+.nav-links ul li:hover a{
 	color: rgba(130,180,60,1);
 }
-.menu{
-	border: solid black;
-	background-color: grey;
-	font-family: arial;
+nav .menu-open{
+	display: block;
+	margin: 10px;
+	cursor: pointer;
+	float: left;
+	position: absolute;
+}
+nav .menu-close{
+	cursor: pointer; 
+	text-align: center;
+	padding-top: 5px;
 }
