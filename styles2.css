@@ -4,9 +4,9 @@ body{
 .header{
 	background-color: rgba(130,180,60,1);
 	color: white;
-	padding: 2px;
-/*	text-align: center;*/
-	font-size: 40px;
+	padding: 1px;
+	text-align: center;
+	font-size: 25px;
 	font-family: arial;
 	letter-spacing: 5px;
 	font-variant: small-caps;
@@ -17,8 +17,15 @@ body{
 }
 .menuButton{
 	float: left;
-	margin: 50px 0 0 10px;
+	margin: 23px 0 0 30px;
 	border-radius: 0 0 0 0;
-	background-color: green;
-	border: solid rgba(88,255,0,0.5);
+	padding: 7px;
+	background-color: white; 
+	border: solid white;
+	color: rgba(130,180,60,1);
+}
+.menu{
+	border: solid black;
+	background-color: grey;
+	font-family: arial;
 }
