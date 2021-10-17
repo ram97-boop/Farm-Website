@@ -20,8 +20,8 @@ body{
 }
 nav{
 	padding: 2% 6% 2%;
-/*	align-items: center;
-	justify-content: space-between;*/
+	align-items: center;
+/*	justify-content: space-between;*/
 	background-color: rgba(130,180,60,0.5);
 }
 nav h1{
@@ -39,9 +39,10 @@ nav h1{
 	left: -210px;
 	position: absolute;
 	transition: 0.5s;
-	background-color: rgba(130,180,60,0.5);
+	background-color: rgba(110,150,70,1);
 	margin-top: -50px;
 	padding-top: 55px;
+	z-index: 2;
 }
 .nav-links ul li{
 	list-styles: none;
@@ -70,6 +71,6 @@ nav .menu-open{
 }
 nav .menu-close{
 	cursor: pointer; 
-	text-align: center;
-	padding-top: 5px;
+	text-align: right;
+	padding: 5px 7px 0 0;
 }
