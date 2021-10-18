@@ -34,6 +34,7 @@ body{
 	background-color: rgba(130,180,60,0.5);
 }
 nav{
+	margin: -10px 0 0 0;
 }
 .nav-links{
 	flex:1;
@@ -72,8 +73,10 @@ nav{
 	cursor: pointer;
 	float: left;
 	position: absolute;
+	padding: 2% 6% 2%;
 }
 nav .menu-close{
+	color: white;
 	cursor: pointer; 
 	text-align: right;
 	padding: 5px 7px 0 0;
