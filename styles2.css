@@ -10,20 +10,26 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+.produce-body{
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.3)), url(farm1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 .header{
 	min-height: 10vh;
 	min-width: 100vw;
 	color: white;
 	text-align: center;
 	/*font-size: 25px;*/
-	letter-spacing: 2px;
-	font-variant: small-caps;
 	/*margin: -10px;*/
 	position: sticky;
 	top: 0;
 }
 .header h1{
 	font-size: 30px;
+	font-variant: small-caps;
 	text-weight: normal;
 	letter-spacing: 5px;
 	color: white;
@@ -57,8 +63,13 @@ nav{
 }
 .nav-links ul li:hover{
 	background-color: white;
-	color: rgba(130,180,60,0.5);
 	transition: 0.5s;
+}
+.current-page{
+	background-color: white;
+}
+.current-page a{
+	color: rgba(130, 180, 60, 1) !important;
 }
 .nav-links ul li a{
 	color: white;
@@ -74,6 +85,7 @@ nav{
 	float: left;
 	position: absolute;
 	padding: 2% 6% 2%;
+	font-variant: normal;
 }
 nav .menu-close{
 	color: white;
