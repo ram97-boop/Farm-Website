@@ -4,14 +4,14 @@
 	font-family: arial;
 }
 body{
-	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.3)), url(farm.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.3)), url(images/farm.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 .produce-body{
-	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.3)), url(farm1.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.3)), url(images/farm1.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -102,4 +102,13 @@ nav .menu-close{
 	margin: 50px 0 0 0;
 	text-align: center;
 	color: white;
+}
+.produce{
+	padding: 5%;
+	background-color: white;
+	border: solid;
+}
+.produce img{
+	width: 150px;
+	height: 150px;
 }
